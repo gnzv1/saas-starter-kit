@@ -74,7 +74,7 @@
     "@types/jest": "29.5.12",
     "@types/micromatch": "4.0.7",
     "@types/mixpanel-browser": "2.49.0",
-    "@types/node": "20.12.10",
+    "@types/node": "^20.12.10",
     "@types/nodemailer": "6.4.15",
     "@types/react": "18.3.1",
     "@typescript-eslint/eslint-plugin": "7.8.0",
@@ -91,11 +91,20 @@
     "postcss": "8.4.38",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.14",
-    "prisma": "5.13.0",
+    "prisma": "^5.13.0",
     "release-it": "17.2.1",
     "tailwindcss": "3.4.3",
-    "ts-node": "10.9.2",
-    "typescript": "5.4.5"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   },
-  "overrides": {}
+  "overrides": {},
+  "description": "<picture>\r   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/boxyhq/jackson/assets/66887028/871d9c0f-d351-49bb-9458-2542830d7910\">\r   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/boxyhq/jackson/assets/66887028/4073c181-0653-4d5b-b74f-e7e84fe79da8\">\r   <img alt=\"BoxyHQ Banner\" src=\"https://github.com/boxyhq/jackson/assets/66887028/b40520b7-dbce-400b-88d3-400d1c215ea1\">\r </picture>",
+  "main": ".eslintrc.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
